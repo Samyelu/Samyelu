@@ -24,3 +24,44 @@ int main()
  printf("ASCII VALUE OF%c is %d\n",i,i);
  
 }
+
+
+#include <stdio.h>
+
+int main(void) 
+{
+
+ unsigned char var;
+	printf("Enter decimal value:");
+	scanf("%d", &var);
+	printf("var = %d\n", var);
+
+	printf("Enter octal value:");
+	scanf("%o", &var);
+	printf("var = %o\n", var);
+
+	printf("Enter hexadecimal value: ");
+	scanf("%x", &var);
+	printf("var = %x\n", var);
+
+	return 0;
+}
+
+
+wap to the data types in c program.
+#include <stdio.h>
+
+int main()
+{
+   int a;
+   char b;
+   float c;
+   printf("enter a value");      //print the inger value//
+   scanf("%d",&a);               //scan the inger a value//
+   printf("enter a character");  //print the character value//
+   scanf(" %c",&b);              //scan the charactr value//
+   printf("enter a value");       //print the float value//
+   scanf("%f",&c);                //scan the float value//
+   printf("%d\n%c\n%f\n",a,b,c);  //print all the data types//
+   
+}
