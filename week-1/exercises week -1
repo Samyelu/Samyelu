@@ -1,1 +1,26 @@
+#include <stdio.h>
 
+int main()
+{
+ char a='k';
+ printf("ASCII VALUE OF%c is %d\n",a,a);
+ char b='a';
+ printf("ASCII VALUE OF%c is %d\n",b,b);
+ char c='r';
+ printf("ASCII VALUE OF%c is %d\n",c,c);
+ char d='u';
+ printf("ASCII VALUE OF%c is %d\n",d,d);
+ char e='n';
+ printf("ASCII VALUE OF%c is %d\n",e,e);
+ char f='s';
+ printf("ASCII VALUE OF%c is %d\n",f,f);
+ char g='t';
+ printf("ASCII VALUE OF%c is %d\n",g,g);
+ char j='h';
+ printf("ASCII VALUE OF%c is %d\n",j,j);
+ char h='l';
+ printf("ASCII VALUE OF%c is %d\n",h,h);
+ char i='i';
+ printf("ASCII VALUE OF%c is %d\n",i,i);
+ 
+}
