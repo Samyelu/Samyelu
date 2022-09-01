@@ -1,0 +1,144 @@
+#include<stdio.h>
+int main()
+{
+    int a[3][3],i,j,sum=0;
+    for(i=0;i<3;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+            scanf("%d",&a[i][j]);
+            
+        }
+    }
+        for(i=0;i<3;i++)
+        {
+            for(j=0;i<3;i++)
+            {
+            if(i==j)
+            {
+            sum=sum+a[i][i];
+            
+        }
+            }
+        printf("\nsum=%d",sum);
+    }
+}
+    
+    
+    
+    
+    //write a program to the two dimentional array//
+
+#include<stdio.h>
+int main()
+{
+    int a[4][4],i,j,sum=0;               //declaring the array elements 4x4 matrix//
+    printf("enter the array elements:");
+    //scanf("%d%d",&m,&n);                //read the assing values//
+    for(i=0;i<4;i++)
+    {
+    for(j=0;j<4;j++)
+    scanf("%d",&a[i][j]);
+    }
+    printf("the array elements are:\n");
+    for(i=0;i<4;i++)
+    {
+    for(j=0;j<4;j++)
+    sum=sum+a[i][j];                       // adding the  sum conditon //
+}
+printf("print the sum of elements=%d\n",sum);
+}
+
+
+//write a program to the two dimentional array//
+
+#include<stdio.h>
+int main()
+{
+    int a[4][4],i,j,sum=0;
+    printf("enter the array elements:");
+    //scanf("%d%d",&m,&n);
+    for(i=0;i<4;i++)
+    {
+    for(j=0;j<4;j++)
+    scanf("%d",&a[i][j]);
+    }
+    printf("the array elements are:\n");
+    for(i=0;i<4;i++)
+    {
+    for(j=0;j<4;j++)
+    sum=sum+a[i][j];
+}
+printf("print the sum of elements=%d\n",sum);
+}
+
+
+
+//write a program to the two dimentional array//
+
+#include<stdio.h>
+int main()
+{
+    int a[4][4],i,j,sum=0;               //declaring the array elements 4x4 matrix//
+    printf("enter the array elements:");
+    //scanf("%d%d",&m,&n);                //read the assing values//
+    for(i=0;i<4;i++)
+    {
+    for(j=0;j<4;j++)
+    scanf("%d",&a[i][j]);
+    }
+    printf("the array elements are:\n");
+    for(i=0;i<4;i++)
+    {
+    for(j=0;j<4;j++)
+    sum=sum+a[i][j];                       // adding the  sum conditon //
+}
+printf("print the sum of elements=%d\n",sum);
+}
+
+
+
+//wap to using the for condition to print the car numbers//
+#include<stdio.h>
+int main()
+{
+    int a[20],Ec,i=0,n=0;
+   char car [20]="1HGBH41JXMN";
+  printf("enter the car numbers:");
+  scanf("%d",&n);
+    
+a[0]=100000;
+
+for(i=1;i<=20;i++)
+    {
+        
+        printf("car%d:%s%d",i,car,a[0]++);
+        puts("\n");
+        
+        
+    }
+}
+    
+}//wap to using the for condition to print the car numbers//
+#include<stdio.h>
+int main()
+{
+    int a[20],Ec,i=0,n=0;
+   char car [20]="1HGBH41JXMN";
+  printf("enter the car numbers:");
+  scanf("%d",&n);
+    
+a[0]=100000;
+
+for(i=1;i<=20;i++)
+    {
+        
+        printf("car%d:%s%d",i,car,a[0]++);
+        puts("\n");
+        
+        
+    }
+}
+
+
+
