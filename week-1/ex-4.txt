@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+ int a;
+ char b='k';
+ float c=10.000;
+ 
+ printf("%d\n%c\n%f\n",sizeof(a),b,c);  
+}
