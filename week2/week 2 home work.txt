@@ -1,0 +1,31 @@
+//write a program using the function in working of camera//
+
+#include<stdio.h>
+void camera_takingpicture();              //declaring the variables in global//
+void camera_recordvideo();
+void camera_list10images();
+void camera_break();
+//void music_totalsongs();
+void main()                       //function is non return type//
+{
+    int camera,i;
+    printf("enter the key number:");
+    scanf("%d%d",&i,&camera);
+    i=camera;
+    if(i==1)                              //using the if condition//
+    printf("taking picture");
+    if(i==2)
+    printf("record video");
+    if(i==3)
+    printf("list of images in gallary");
+    if(i==9)
+    printf("camera is beak");
+    
+    
+}
+int camera()                             //declaring the  arguments//
+{
+     printf("enter the number:%d",camera);
+    scanf("%d",&camera);
+    
+}

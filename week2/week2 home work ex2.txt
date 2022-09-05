@@ -1,0 +1,31 @@
+//write a program using with function in declaring the phone function of work//
+
+#include<stdio.h>
+void phone_call();              //declaring the variables in globally//
+void phone_msg();
+void phone_rcvcall();
+void phone_break();
+//void music_totalsongs();
+void main()                       //function is non return type//
+{
+    int phone,i;
+    printf("enter the key number:");
+    scanf("%d%d",&i,&phone);
+    i=phone;
+    if(i==1)                              //using the if condition//
+    printf("the call start");
+    if(i==2)
+    printf("send the message");
+    if(i==3)
+    printf("recieve the call");
+    if(i==9)
+    printf("phone is beak");
+    
+    
+}
+int phone()                             //declaring the  arguments//
+{
+     printf("enter the number:%d",phone);
+    scanf("%d",&phone);
+    
+}
