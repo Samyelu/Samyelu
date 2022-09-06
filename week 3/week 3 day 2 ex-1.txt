@@ -1,0 +1,25 @@
+//write a program to find the lenght of the array string//
+
+#include<stdio.h>
+//flaot a[]={1.3,2.3,3.3,4.3,5.3},n,sum=0;    //declaring the variables//
+float avg(int*p,int n);                       //function declaration//
+int main()
+{
+    int a[5]={10,20,30,40,50};            //intializing the array size and elements//
+    float result;
+    result=avg(a,5);                      //call the result function//
+    printf("%f",result);
+}
+float avg(int *a,int n)          //declaring the calling function//
+{       int i=0;
+       float avg,sum=0;
+       for(i=0;i<5;i++)
+    {
+           sum=sum+a[i];       //additing the array os string //
+           //printf("%d",sum);
+      
+    }
+    avg=sum/5;                //return to the function//
+    return(avg);
+}
+    

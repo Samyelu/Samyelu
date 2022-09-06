@@ -1,0 +1,18 @@
+#include<stdio.h>
+void result(int a,int b,int *q,int *r);
+int main()
+{
+    int a=10,b=7;
+    int *q,*r;
+    q=&a;
+    r=&b;
+    result(a,b,q,r);
+    
+    printf("%d  %d",a,b);
+}
+void result(int a,int b,int *q,int *r)
+{    
+    *q=a%b;
+    *r=a/b;
+    //printf("the remainder and coff is%d%d ",*q,*r);
+}

@@ -1,0 +1,14 @@
+#include<stdio.h>  
+void result(int *a, int *b, int *c, int *d);
+int main()
+{
+    int s,x,y,z;
+   printf("enter the values");
+    scanf("%d%d%d%d",&s,&x,&y,&z);
+   result(&s,&x,&y,&z);
+    
+}
+void result(int *a, int *b, int *c, int *d)
+{
+    printf("%d %d %d %d",*a,*b,*c,*d);
+}

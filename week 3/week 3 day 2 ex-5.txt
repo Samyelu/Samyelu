@@ -1,0 +1,26 @@
+/*swap the two valus in using function//
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+#include<stdio.h>
+void swap(int x,int y);     //declaring the variables in passing the argiments//
+int main()
+{
+    int a,b;                //intializing the variables//
+    printf("Enter the a and b values:");
+    scanf("%d%d",&a,&b);
+    swap(a,b);             
+}     
+void swap(int x,int y)      //col;ling function//
+{
+    int temp;
+    temp=x;             // x value store the temp
+    x=y;
+    y=temp;              //temp value store the y// 
+
+    printf("After inter changing in the values %d %d",x,y);
+
+}
